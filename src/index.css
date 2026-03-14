@@ -1,13 +1,52 @@
+/* Base Arcade Styles */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
+  padding: 0;
+  background-color: #000000; /* Deep arcade black */
+  color: #ecf0f1;
+  /* Applying our retro Google Font! */
+  font-family: 'Press Start 2P', monospace; 
+  -webkit-font-smoothing: none; /* Keeps the pixels crisp */
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+}
+
+/* Typography tweaks for readability with the 8-bit font */
+h1, h2, h3 {
+  line-height: 1.4;
+  text-shadow: 3px 3px 0px #000; /* Adds a blocky drop shadow */
+}
+
+p, span, a, li {
+  line-height: 1.6;
+  font-size: 0.8rem; /* 8-bit fonts run large, so scaling down helps */
+}
+
+/* Custom Scrollbar for extra flair */
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #1a1a1a; 
+}
+::-webkit-scrollbar-thumb {
+  background: #e74c3c; 
+  border: 2px solid #000;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c0392b; 
+}
+
+/* Pulsing animation for the footer text */
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.blink-text {
+  animation: blink 1.5s infinite;
 }
