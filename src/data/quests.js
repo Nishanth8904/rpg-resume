@@ -29,16 +29,16 @@ export const questData = [
     media: [
         "/photos/Dyne 2026-03-14 at 11.02.02 PM.png",
         "/photos/Dyne 2026-03-14 at 11.02.18 PM.png",
-        "/photos/Dyne 2026-03-14 at 11.02.25 PM.png",
-        "/photos/Dyne 2026-03-14 at 11.02.32 PM.png",
-        "/photos/Dyne 2026-03-14 at 11.02.40 PM.png",
-        "/photos/Dyne 2026-03-14 at 11.02.48 PM.png",
-        "/photos/Dyne 2026-03-14 at 11.02.55 PM.png",
-        "/photos/Dyne 2026-03-14 at 11.03.02 PM.png",
-        "/photos/Dyne 2026-03-14 at 11.03.10 PM.png",
-        "/photos/Dyne 2026-03-14 at 11.03.18 PM.png",
-        "/photos/Dyne 2026-03-14 at 11.03.25 PM.png",
-        "/photos/Dyne 2026-03-14 at 11.03.32 PM.png"
+        "/photos/Dyne 2026-03-14 at 11.02.49 PM.png",
+        "/photos/Dyne 2026-03-14 at 11.02.59 PM.png",
+        "/photos/Dyne 2026-03-14 at 11.02.11 PM.png",
+        "/photos/Dyne 2026-03-14 at 11.02.28 PM.png",
+        "/photos/Dyne 2026-03-14 at 11.02.42 PM.png",
+        "/photos/Dyne 2026-03-14 at 11.04.10 PM.png",
+        "/photos/Dyne 2026-03-14 at 11.04.21 PM.png",
+        "/photos/Dyne 2026-03-14 at 11.04.54 PM.png",
+        "/photos/Dyne 2026-03-14 at 11.05.19 PM.png",
+        "/photos/Dyne 2026-03-14 at 11.03.28 PM.png"
     ]
   },
   {
