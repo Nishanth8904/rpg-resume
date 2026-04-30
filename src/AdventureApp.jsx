@@ -1,4 +1,5 @@
 import React, { useState } from 'react'; // CRITICAL: Added useState here!
+import { Analytics } from '@vercel/analytics/react';
 import AvatarProfile from './components/GameUI/AvatarProfile';
 import HealthBar from './components/GameUI/HealthBar';
 import SkillTree from './components/GameUI/SkillTree';
@@ -107,6 +108,8 @@ function AdventureApp() {
       <footer className="game-footer">
         <p className="blink-text">Press [Start] to hire this adventurer.</p>
       </footer>
+
+      <Analytics />
 
       {/* NEW: The Skill Tree Popup Modal */}
       {isSkillModalOpen && (
