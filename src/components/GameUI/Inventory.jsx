@@ -4,7 +4,7 @@ function Inventory() {
   const inventoryItems = [
     { id: 1, name: "GitHub", icon: "🛡️", link: "https://github.com/Nishanth8904" },
     { id: 2, name: "LinkedIn", icon: "📜", link: "https://www.linkedin.com/in/nishanth-p-3186662a7/" },
-    { id: 3, name: "leetcode", icon: "🧪", link: "https://leetcode.com/problems/i-dont-have-one/" },
+    { id: 3, name: "leetcode", icon: "🧪", link: "https://leetcode.com/u/nishanth8904/" },
     { id: 4, name: "Email", icon: "🐦", link: "mailto:nishanthpugazh.2004@example.com" }
   ];
 
